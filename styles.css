@@ -48,8 +48,6 @@ body {
   pointer-events: none; /* So it doesn't block nav clicks */
 }
 
-/* ...existing code... */
-
 /* Header Register Button Group */
 .header__btn-group {
   display: flex;
@@ -129,14 +127,14 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-.form__btn-group:hover .form__btn-icon {
+/* .form__btn-group:hover .form__btn-icon {
   background: #f1c40f;
   color: #1e0a57;
 }
 .form__btn-group:hover .form__btn-text {
   background: #fff;
   color: #1e0a57;
-}
+} */
 
 /* Remove default button styles for both */
 .form__btn-icon,
@@ -308,7 +306,7 @@ body {
 /* Stats Section */
 .stats-section {
   padding: 3rem 1rem;
-  background: #fff; /* or transparent if you want */
+  background: #fff; 
   text-align: center;
 }
 
@@ -326,7 +324,7 @@ body {
   max-width: 180px;
   text-align: center;
   font-family: "Arial", sans-serif;
-  color: #0c2a66; /* matches design */
+  color: #0c2a66; 
 }
 
 .stat-item p {
@@ -399,14 +397,14 @@ body {
 
 /* Video Section */
 .video-section {
-  padding: 4rem 0; /* Remove side padding for full width */
+  padding: 4rem 0; 
   background: #f9f9f9;
   text-align: center;
 }
 
 .video-container {
   width: 100%;
-  max-width: 1917px; /* Set max-width as per your screenshot */
+  max-width: 1917px; 
   margin: 0 auto;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   border-radius: 12px;
@@ -415,7 +413,7 @@ body {
 
 .video-container video {
   width: 100%;
-  height: 800px; /* Set height as per your screenshot */
+  height: 800px; 
   border-radius: 12px;
   object-fit: cover;
 }
@@ -558,7 +556,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2, 140px);
   grid-gap: 20px;
-  transform: rotate(45deg); /* Diamond shape */
+  transform: rotate(45deg); 
 }
 
 .attractions__grid img {
